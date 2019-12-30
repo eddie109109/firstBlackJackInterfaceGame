@@ -1,0 +1,133 @@
+body {
+  background-color: green;
+}
+
+header {
+  text-align: center;
+  width: 100%;
+  display: inline-block;
+}
+
+p.description{
+  font-family: 'Press Start 2P', cursive;
+  color: gold;
+}
+
+
+h1 {
+  font-family: 'Press Start 2P', cursive;
+  text-align: center;
+  color: #FEF2BF;
+}
+
+
+.dealerScore {
+  font-family: 'Press Start 2P', cursive;
+  float: left;
+  padding-right: 1em;
+  width: 32%;
+}
+
+.playerScore {
+  font-family: 'Press Start 2P', cursive;
+  float: left;
+  width: 32%;
+}
+
+.playerMoney {
+  font-family: 'Press Start 2P', cursive;
+  float: left;
+  width: 32%;
+}
+
+.player {
+  text-align: center;
+}
+
+.playerSplit {
+  display: none;
+  text-align: center;
+}
+
+
+
+.showPlayerSplit {
+  display: inline;
+  /* text-align: center; */
+  width: 100%;
+  margin-left: 16%;
+}
+
+.dealer {
+  text-align: center;
+}
+
+
+
+.info {
+  display: inline-block;
+}
+
+.bettingArea {
+  font-family: 'Press Start 2P', cursive;
+  color: yellow;
+  float: left;
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+}
+
+.nextToBettingArea {
+  float: left;
+  display: inline-block;
+  width: 50%;
+  text-align:center;
+}
+
+input[type=text] {
+  /* font-family: 'Press Start 2P', cursive; */
+  font-size: 15px;
+  border: 2px solid yellow;
+  border-radius: 20%;
+
+}
+
+
+
+.playerButton {
+  text-align: center;
+  padding-top: 10px;
+}
+
+
+
+button  {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
+  border-radius: 100%;
+  padding: 10px;
+  margin: 3px;
+}
+
+button.startButton {
+  margin: 0;
+}
+
+.press {
+  background-color: red;
+}
+
+button#confirmButton {
+  font-size: .5rem;
+  background-color: yellow;
+  border: yellow;
+}
+
+button#surrender {
+  background-color: yellow;
+}
+
+footer {
+  margin-top: 20px;
+  text-align: center;
+}

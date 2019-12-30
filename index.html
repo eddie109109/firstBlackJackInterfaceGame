@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Blackjack Game</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Eddie's Blackjack game!</h1>
+        <div class= "info">
+          <h2 class = "dealerScore">Dealer Score: <span id = "dealerScore">0</span></h2>
+          <h2 class = "playerScore">Player Score: <span id = "playerScore">0</span></h2>
+          <h2 class = "playerMoney">Player Money: $<span id = "playerMoney">100</span></h2>
+        </div>
+        <div >
+          <div class = "bettingArea">
+            <!-- <form class="" action="index.html" method="post"> -->
+              <label for="">Enter your bet amount:</label>
+              <input type="text" name="amount"  placeholder="Min $10">
+              <button type="submit" name="confirm" id = "confirmButton">confirm</button>
+            <!-- </form> -->
+          </div>
+          <div class = "nextToBettingArea">
+            <button type="button" name="button" class="newGameButton">Brand new Game!</button>
+            <button type="button" name="button" class="startButton">quick start the game!</button>
+          </div>
+        </div>
+
+    </header>
+
+    <div>
+      <p class = "description"> dealer's cards:</p>
+    <div class="dealer">
+
+      <img id = "dealerCard0" src="images/2.png" alt="card" width = "150", heigth = "100">
+      <img id = "dealerCard1" src="images/2.png" alt="card" width = "150", heigth = "100">
+      <img id = "dealerCard2" src="images/2.png" alt="card" width = "150", heigth = "100">
+      <img id = "dealerCard3" src="images/2.png" alt="card" width = "150", heigth = "100">
+      <img id = "dealerCard4" src="images/2.png" alt="card" width = "150", heigth = "100">
+      <img id = "dealerCard5" src="images/2.png" alt="card" width = "150", heigth = "100">
+      <img id = "dealerCard6" src="images/2.png" alt="card" width = "150", heigth = "100">
+      <img id = "dealerCard7" src="images/2.png" alt="card" width = "150", heigth = "100">
+    </div>
+  </div>
+    <div>
+      <p class = "description"> Player's cards:</p>
+    <div class="player">
+
+      <img id = "playerCard-1" src="images/2.png" alt="card" width = "150", heigth = "100">
+      <img id = "playerCard0" src="images/2.png" alt="card" width = "150", heigth = "100">
+      <img id = "playerCard1" src="images/2.png" alt="card" width = "150", heigth = "100">
+      <img id = "playerCard2" src="images/2.png" alt="card" width = "150", heigth = "100">
+      <img id = "playerCard3" src="images/2.png" alt="card" width = "150", heigth = "100">
+      <img id = "playerCard4" src="images/2.png" alt="card" width = "150", heigth = "100">
+      <img id = "playerCard5" src="images/2.png" alt="card" width = "150", heigth = "100">
+      <img id = "playerCard6" src="images/2.png" alt="card" width = "150", heigth = "100">
+    </div>
+  </div>
+
+  <div class="playerSplit">
+
+    <img id = "playerCardSplit-1" src="images/2.png" alt="card" width = "150", heigth = "100">
+    <img id = "playerCardSplit0" src="images/2.png" alt="card" width = "150", heigth = "100">
+    <img id = "playerCardSplit1" src="images/2.png" alt="card" width = "150", heigth = "100">
+    <img id = "playerCardSplit2" src="images/2.png" alt="card" width = "150", heigth = "100">
+    <img id = "playerCardSplit3" src="images/2.png" alt="card" width = "150", heigth = "100">
+    <img id = "playerCardSplit4" src="images/2.png" alt="card" width = "150", heigth = "100">
+    <img id = "playerCardSplit5" src="images/2.png" alt="card" width = "150", heigth = "100">
+    <img id = "playerCardSplit6" src="images/2.png" alt="card" width = "150", heigth = "100">
+  </div>
+
+    <section class = "playerButton">
+        <button type="button" name="stand" id = "stand">Stand</button>
+        <button type="button" name="hit" id = "hit">Hit</button>
+        <button type="button" name="double" id = "doubleDown">double down</button>
+        <button type="button" name="split" id = "split">split</button>
+        <button type="button" name="surrender" id = "surrender">surrender</button>
+        <button type="button" name="insurance" id = "insurance">insurance</button>
+        <!-- <div class="insuranceOptions">
+          <button type="button" name="halfInsurance" id = "halfInsurance">half insurance</button>
+          <button type="button" name="fullInsurance" id = "fullInsurance">full insurance</button>
+        </div> -->
+        <button type="button" name="halfInsurance" id = "halfInsurance">half insurance</button>
+        <button type="button" name="fullInsurance" id = "fullInsurance">Special full bet insurance</button>
+
+    </section>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- the above is jquery link -->
+    <script src="script.js" charset="utf-8"></script>
+  </body>
+  <footer>© Copyright 2018~future Eddie Chen</footer>
+</html>
